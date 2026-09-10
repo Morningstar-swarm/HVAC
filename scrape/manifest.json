@@ -1,0 +1,172 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | 24/7 Emergency Heating & Cooling Service — Same Day Appointments | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | "
+    },
+    {
+      "route": "/about",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | Call 815-556-0660 for a free estimate | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | Products | About Us | Finan"
+    },
+    {
+      "route": "/services",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | Call 815-556-0660 for a free estimate | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | Products | About Us | Finan"
+    },
+    {
+      "route": "/products",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | Call 815-556-0660 for a free estimate | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | Products | About Us | Finan"
+    },
+    {
+      "route": "/gallery",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | Call 815-556-0660 for a free estimate | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | Products | About Us | Finan"
+    },
+    {
+      "route": "/contact",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | Call 815-556-0660 for a free estimate | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | Products | About Us | Finan"
+    },
+    {
+      "route": "/reviews",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | Call 815-556-0660 for a free estimate | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | Products | About Us | Finan"
+    },
+    {
+      "route": "/financing",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | Call 815-556-0660 for a free estimate | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | Products | About Us | Finan"
+    },
+    {
+      "route": "/service-areas",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | Call 815-556-0660 for a free estimate | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | Products | About Us | Finan"
+    },
+    {
+      "route": "/faq",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | Call 815-556-0660 for a free estimate | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | Products | About Us | Finan"
+    },
+    {
+      "route": "/special-offers",
+      "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+      "imgCount": 28,
+      "sample": "24/7 Emergency Service | Call 815-556-0660 for a free estimate | ContactUs@bestcomforthvac.com | 815-556-0660 | Best Comfort HVAC Joliet Office | Home | Products | About Us | Finan"
+    }
+  ],
+  "images": [
+    {
+      "name": "hvac-service-ALSEJ9Cx.jpg",
+      "url": "https://bestcomforthvac.hcshvac.com/assets/hvac-service-ALSEJ9Cx.jpg",
+      "bytes": 57981
+    },
+    {
+      "name": "hvac-install-Bigkghos.jpg",
+      "url": "https://bestcomforthvac.hcshvac.com/assets/hvac-install-Bigkghos.jpg",
+      "bytes": 59127
+    },
+    {
+      "name": "qotdnw3jpy-1769133644440.jpg",
+      "url": "https://ozsvufpqeuvklrqzqpuk.supabase.co/storage/v1/object/public/company-logos/qotdnw3jpy-1769133644440.jpg",
+      "bytes": 121337
+    },
+    {
+      "name": "hvac-hero-CIi7tPcf.jpg",
+      "url": "https://bestcomforthvac.hcshvac.com/assets/hvac-hero-CIi7tPcf.jpg",
+      "bytes": 129748
+    },
+    {
+      "name": "aebad167-23f3-4ff5-94d8-ee65c72da825.jpeg",
+      "url": "https://ozsvufpqeuvklrqzqpuk.supabase.co/storage/v1/object/public/file-manager/aebad167-23f3-4ff5-94d8-ee65c72da825.jpeg",
+      "bytes": 310753
+    },
+    {
+      "name": "20e063ce-a21f-4e8e-a880-569b86d1170a.jpeg",
+      "url": "https://ozsvufpqeuvklrqzqpuk.supabase.co/storage/v1/object/public/file-manager/20e063ce-a21f-4e8e-a880-569b86d1170a.jpeg",
+      "bytes": 16891
+    },
+    {
+      "name": "adf01c9a-af28-44f1-8e69-7b0ac8cab919.png",
+      "url": "https://ozsvufpqeuvklrqzqpuk.supabase.co/storage/v1/object/public/file-manager/adf01c9a-af28-44f1-8e69-7b0ac8cab919.png",
+      "bytes": 315654
+    },
+    {
+      "name": "ee9299f5-12bd-41d7-86ae-b58d684d97c4.png",
+      "url": "https://ozsvufpqeuvklrqzqpuk.supabase.co/storage/v1/object/public/file-manager/ee9299f5-12bd-41d7-86ae-b58d684d97c4.png",
+      "bytes": 17160
+    },
+    {
+      "name": "5622f746-f499-4340-b51c-1d866bf0bad7.jpg",
+      "url": "https://ozsvufpqeuvklrqzqpuk.supabase.co/storage/v1/object/public/file-manager/5622f746-f499-4340-b51c-1d866bf0bad7.jpg",
+      "bytes": 16884
+    },
+    {
+      "name": "433c60b7-7b51-4dea-bb94-9fd8bf7ba61f.jpg",
+      "url": "https://ozsvufpqeuvklrqzqpuk.supabase.co/storage/v1/object/public/file-manager/433c60b7-7b51-4dea-bb94-9fd8bf7ba61f.jpg",
+      "bytes": 89585
+    },
+    {
+      "name": "86608594-4122-470e-92c7-8b03856f0f05.jpeg",
+      "url": "https://ozsvufpqeuvklrqzqpuk.supabase.co/storage/v1/object/public/file-manager/86608594-4122-470e-92c7-8b03856f0f05.jpeg",
+      "bytes": 316293
+    },
+    {
+      "name": "a3631a77-d946-498e-8a6d-139c484d6e6a.jpg",
+      "url": "https://ozsvufpqeuvklrqzqpuk.supabase.co/storage/v1/object/public/file-manager/a3631a77-d946-498e-8a6d-139c484d6e6a.jpg",
+      "bytes": 189882
+    },
+    {
+      "name": "photo-1486406146926-c627a92ad1ab",
+      "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=200&h=200&fit=crop&auto=format",
+      "bytes": 13719
+    },
+    {
+      "name": "photo-1497366216548-37526070297c",
+      "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=200&h=100&fit=crop",
+      "bytes": 8235
+    },
+    {
+      "name": "photo-1554469384-e58fac16e23a",
+      "url": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?w=200&h=100&fit=crop",
+      "bytes": 11066
+    },
+    {
+      "name": "photo-1486406146926-c627a92ad1ab",
+      "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=200&h=100&fit=crop",
+      "bytes": 8868
+    },
+    {
+      "name": "photo-1504307651254-35680f356dfd",
+      "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&h=200&fit=crop&auto=format",
+      "bytes": 21570
+    },
+    {
+      "name": "photo-1497215842964-222b430dc094",
+      "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=200&h=100&fit=crop",
+      "bytes": 8553
+    },
+    {
+      "name": "photo-1497366754035-f200968a6e72",
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=200&h=100&fit=crop",
+      "bytes": 10198
+    },
+    {
+      "name": "photo-1504307651254-35680f356dfd",
+      "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&h=100&fit=crop",
+      "bytes": 13545
+    }
+  ]
+}

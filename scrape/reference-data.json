@@ -1,0 +1,232 @@
+{
+  "title": "HCS HVAC - Professional Heating & Cooling Services | 24/7 Emergency Repair",
+  "phones": [
+    "815-556-0660",
+    "815-791-7447",
+    "(555) 987-6543",
+    "(555) 246-8135",
+    "(555) 201-1001",
+    "(555) 201-1002",
+    "(555) 201-1005",
+    "(555) 201-1006",
+    "(555) 201-1007",
+    "(555) 201-1008",
+    "(555) 201-1009",
+    "(555) 201-1010"
+  ],
+  "headings": [
+    "H3: What We Work On",
+    "H3: Top Products",
+    "H1: Built For Every Season",
+    "H3: Our Services",
+    "H3: Area's We Service256 locations across 1 state",
+    "H3: Brands We Install57 brands",
+    "H3: Brands We Service138 brands",
+    "H3: Brands We Repair10 brands",
+    "H3: Plumbing Types We Install7 types",
+    "H3: Plumbing Types We Service8 types",
+    "H3: Plumbing Types We Repair8 types",
+    "H3: Boilers We Install3 items",
+    "H3: Boilers We Service1 items",
+    "H3: Boilers We Repair1 items",
+    "H3: Water Heaters We Install2 items",
+    "H2: Our Partners",
+    "H3: Jerrys Heating and Cooling of Plainfield815-791-7447",
+    "H3: Jerrys Heating and Cooling of Plainfield",
+    "H3: Affordable Heating and Cooling of Plainfield, IL(555) 987-6543",
+    "H3: Affordable Heating and Cooling of Plainfield, IL",
+    "H3: PureFlo Plumbing & Water(555) 246-8135",
+    "H3: PureFlo Plumbing & Water",
+    "H3: Arctic Comfort HVAC(555) 201-1001",
+    "H3: Arctic Comfort HVAC",
+    "H3: SunWarm Heating Solutions(555) 201-1002",
+    "H3: SunWarm Heating Solutions",
+    "H3: GreenLeaf Energy Systems(555) 201-1005",
+    "H3: GreenLeaf Energy Systems",
+    "H3: EliteAir Commercial Services(555) 201-1006",
+    "H3: EliteAir Commercial Services",
+    "H3: AquaFlow Water Treatment(555) 201-1007",
+    "H3: AquaFlow Water Treatment",
+    "H3: ThermoShield Insulation(555) 201-1008",
+    "H3: ThermoShield Insulation",
+    "H3: SmartHome Climate Control(555) 201-1009",
+    "H3: SmartHome Climate Control",
+    "H3: RapidResponse Emergency HVAC(555) 201-1010",
+    "H3: RapidResponse Emergency HVAC",
+    "H3: Special Offers",
+    "H2: Contact Us",
+    "H3: Get In Touch",
+    "H3: Ready for Service?"
+  ],
+  "products": [
+    {
+      "price": "$16.99",
+      "name": "AAONCapacitor 45/5 MFD 440V"
+    },
+    {
+      "price": "$2,499.99",
+      "name": "BryantCondenser"
+    },
+    {
+      "price": "$149.99",
+      "name": "AAONAIREDigital Thermostat WiFi Enabled"
+    },
+    {
+      "price": "$79.99",
+      "name": "AAF16x20x1 MERV 8 Basic Filter"
+    }
+  ],
+  "accordions": [
+    "Services",
+    "Book a Service",
+    "Air ConditioningRequest service",
+    "Heating SystemsRequest service",
+    "Maintenance PlansRequest service",
+    "Emergency RepairsRequest service",
+    "Request Service",
+    "Area's We Service256 locations across 1 state",
+    "Brands We Install57 brands",
+    "Brands We Service138 brands",
+    "Brands We Repair10 brands",
+    "Plumbing Types We Install7 types",
+    "Plumbing Types We Service8 types",
+    "Plumbing Types We Repair8 types",
+    "Boilers We Install3 items",
+    "Boilers We Service1 items",
+    "Boilers We Repair1 items",
+    "Water Heaters We Install2 items",
+    "EliteAir Commercial Services(555) 201-1006"
+  ],
+  "partners": [
+    "Best Comfort HVAC Joliet Office",
+    "Air Quality",
+    "Air Conditioning",
+    "Heating Systems",
+    "HVAC Equipment Commercial - Furnace Only",
+    "Adirondack-Aire",
+    "AbsolutAire",
+    "UV-C Air Purifier Insert",
+    "Plumbing Types We Install",
+    "Plumbing Types We Service",
+    "Plumbing Types We Repair",
+    "Jerrys Heating and Cooling of Plainfield",
+    "PureFlo Plumbing & Water",
+    "Arctic Comfort HVAC",
+    "SunWarm Heating Solutions",
+    "GreenLeaf Energy Systems",
+    "EliteAir Commercial Services",
+    "AquaFlow Water Treatment",
+    "ThermoShield Insulation",
+    "SmartHome Climate Control",
+    "RapidResponse Emergency HVAC",
+    "Any HVAC Service Call",
+    "BestComfortHVAC",
+    "HVAC Reparing"
+  ],
+  "offers": [
+    "FREE ESTIMATES ON INSTALLATIONS",
+    "$50 OFF",
+    "$100 OFF",
+    "Free",
+    "$99 OFF",
+    "$149 OFF",
+    "Free estimates, no surprise fees."
+  ],
+  "palette": {
+    "bodyBg": "rgb(255, 255, 255)",
+    "bodyColor": "rgb(16, 16, 16)",
+    "font": "\"DM Sans\", sans-serif"
+  },
+  "topColors": [
+    [
+      "rgb(16, 16, 16)",
+      378
+    ],
+    [
+      "rgb(255, 255, 255)",
+      56
+    ],
+    [
+      "rgb(2, 8, 23)",
+      26
+    ],
+    [
+      "rgb(241, 245, 249)",
+      12
+    ],
+    [
+      "rgb(51, 51, 51)",
+      12
+    ],
+    [
+      "rgb(177, 178, 183)",
+      11
+    ],
+    [
+      "rgb(245, 245, 245)",
+      8
+    ],
+    [
+      "rgb(105, 110, 115)",
+      4
+    ],
+    [
+      "rgb(246, 246, 246)",
+      4
+    ],
+    [
+      "rgba(241, 245, 249, 0.3)",
+      4
+    ],
+    [
+      "rgb(100, 116, 139)",
+      2
+    ],
+    [
+      "rgb(233, 233, 233)",
+      2
+    ],
+    [
+      "rgb(220, 70, 70)",
+      1
+    ],
+    [
+      "rgb(255, 235, 138)",
+      1
+    ],
+    [
+      "rgba(241, 245, 249, 0.5)",
+      1
+    ],
+    [
+      "rgba(13, 162, 231, 0.05)",
+      1
+    ],
+    [
+      "rgb(13, 162, 231)",
+      1
+    ],
+    [
+      "rgba(255, 255, 255, 0.1)",
+      1
+    ]
+  ],
+  "footer": "24/7 Emergency ServiceSomeone answers, day or night.Licensed & InsuredCertified, background-checked techs.Upfront PricingFree estimates, no surprise fees.Satisfaction GuaranteedWorkmanship backed in writing.OUR OFFICE24/7 dispatch & emergency service:815-556-06601504 Essington Rd #3, Joliet, IL, 60435ContactUs@bestcomforthvac.comCOMPANYProductsAbout UsFinancingServicesSERVICESResidentialCommercialAir QualityMass PagesSERVICE AREAAddison (Township), DuPage County, ILAddison, DuPage County, ILAlsip, Cook County, ILAndres, Will County, ILArbury Hills, Will County, ILArlington Heights, Cook County, ILHOURS & SUPPORTMonday – Friday: 8:00 AM – 6:00 PMSaturday: 9:00 AM – 3:00 PMEmergency service: available 24/7Call Best Comfort HVAC Joliet Office© 2026 Best Comfort HVAC Joliet Office. All rights reserved.Licensed & Insured · EPA Certified",
+  "sections": [
+    "What We Work OnHeating, cooling and air quality equipment installed, serviced and repaired by licensed technicians.Air ConditioningRequest serviceHeat",
+    "Top ProductsOur most requested heating and cooling equipment, hand picked by our technicians.AllHVAC Equipment Commercial - Furnace OnlyHVAC Equipment",
+    "COMFORT DONE RIGHTBuilt For Every SeasonBest Comfort HVAC Joliet Office installs and maintains high-efficiency heating and cooling systems across Joli",
+    "Our ServicesProfessional heating, cooling and air quality service from Best Comfort HVAC Joliet Office.Air ConditioningExpert AC installation, repair,",
+    "Area's We Service256 locations across 1 stateBrands We Install57 brandsBrands We Service138 brandsBrands We Repair10 brandsPlumbing Types We Install7 ",
+    "Our PartnersTrusted companies we work with to provide you the best serviceJerrys Heating and Cooling of Plainfield815-791-7447Affordable Heating and C",
+    "Special Offers$50 OFFAny HVAC Service CallSAVE50$100 OFFBestComfortHVACSAVE100FreeHVAC ReparingSAVEALL$99 OFFHVAC ReapiringSAVE99$149 OFFHVAC Installi",
+    "Contact UsReady to get started? Contact Best Comfort HVAC Joliet Office today for all your HVAC needs.Get In TouchPhone815-556-0660EmailContactUs@best"
+  ],
+  "bodyStart": "24/7 Emergency Service24/7 Emergency Heating & Cooling Service — Same Day AppointmentsContactUs@bestcomforthvac.com815-556-0660Best Comfort HVAC Joliet OfficeHomeProductsAbout UsFinancingServicesResidentialCommercialAir QualityMass Pages Call Now24/7 EMERGENCY SERVICELICENSED & INSURED TECHNICIANSFREE ESTIMATES ON INSTALLATIONSFINANCING OPTIONS AVAILABLE24/7 EMERGENCY SERVICELICENSED & INSURED TECHNICIANSFREE ESTIMATES ON INSTALLATIONSFINANCING OPTIONS AVAILABLE24/7 EMERGENCY SERVICELICENSED & INSURED TECHNICIANSFREE ESTIMATES ON INSTALLATIONSFINANCING OPTIONS AVAILABLE24/7 EMERGENCY SERVICELICENSED & INSURED TECHNICIANSFREE ESTIMATES ON INSTALLATIONSFINANCING OPTIONS AVAILABLEKEEPING YOU COMFORTABLE YEAR-ROUNDBest Comfort HVAC - Your Trusted Heating & Cooling ExpertsProfessional HVAC services for residential and commercial customers in the Chicago area. 24/7 emergency service available.Book a ServiceCall 815-556-0660What We Work OnHeating, cooling and air quality equipment installed, serviced and repaired by licensed technicians.Air ConditioningRequest serviceHeating SystemsRequest serviceMaintenance PlansRequest serviceEmergency RepairsRequest serviceTop ProductsOur most requested heating and cooling equipment, hand picked by our technicians.AllHVAC Equipment Commercial - Furnace OnlyHVAC Equipment Residential - Furnace and CoilHVAC Equipment Residential - Ac Condenser OnlyHVAC Equipment Commercial - Ac Condenser OnlyAAONCapacitor 45/5 MFD 440V$16.99Adirondack-AireCondensate Pump UniversalCall for pricingBryantCondenser$2,499.99AAONContactor 2-Pole 30 AmpCall for pricingBoiler Hot WaterCall for pricingAAONAIREDigital Thermostat WiFi Enabled$149.99AbsolutAireUV-C Air Purifier InsertCall for pricingAAF16x20x1 MERV 8 Basic Filter$79.99View All ProductsCOMFORT DONE RIGHTBuilt For Every SeasonBest Comfort HVAC Joliet Office installs and maintains high-efficiency heating and cooling systems across Joliet, IL — with upfront pricing, clean workmanship and same-day emergency response.Schedule Now815-556-0660Our ServicesProfessional heating, cooling and air quality service from Best Comfort HVAC Joliet Office.Air ConditioningExpert AC installation, repair, and maintenance to keep you cool all summer long.Heating SystemsReliable heating solutions including furnaces, heat pumps, and boiler services.Maintenance PlansPreventive maintenance programs to extend system life and improve efficiency.Emergency Repairs24/7 emergency service for urgent heating and cooling system breakdowns.Request ServiceArea's We Service256 locations across 1 stateBrands We Install57 brandsB",
+  "links": [
+    "mailto:ContactUs@bestcomforthvac.com",
+    "tel:8155560660",
+    "tel:815-556-0660",
+    "https://www.google.com/maps?q=1504%20Essington%20Rd%20%233%2C%20Joliet%2C%20IL%2C%2060435"
+  ]
+}

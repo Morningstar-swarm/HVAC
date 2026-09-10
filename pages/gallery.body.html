@@ -1,0 +1,221 @@
+<section class="page-hero">
+  <div class="wrap wrap--wide">
+    <ol class="crumbs">
+      <li><a href="index.html">Home</a></li>
+      <li><svg class="ico" aria-hidden="true"><use href="#i-chevron-right"></use></svg></li>
+      <li aria-current="page">Project Gallery</li>
+    </ol>
+    <div class="page-hero__grid">
+      <div>
+        <p class="eyebrow eyebrow--pill">Real jobs · Real equipment</p>
+        <h1>Photos from our installs and service calls</h1>
+        <p class="lead">Every image below came from a job we ran in Will, Cook, DuPage or Kendall county.
+          Click any photo to open it full size, then use the arrow keys to move through the set.</p>
+        <div class="btn-row mt-3">
+          <a class="btn btn--salmon btn--lg" href="contact.html#book">Book a Service</a>
+          <a class="btn btn--outline btn--lg" href="tel:+18155560660">
+            <svg class="ico ico--sm" aria-hidden="true"><use href="#i-phone"></use></svg> 815-556-0660
+          </a>
+        </div>
+      </div>
+      <div class="page-hero__art">
+        <img src="assets/images/hero-indoor.jpg" width="1920" height="1080" alt="Technician servicing an indoor commercial air handler in a mechanical room">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================== GRID ========================== -->
+<section class="section" id="grid">
+  <div class="wrap wrap--wide">
+    <div class="section-head">
+      <p class="eyebrow">Browse the work</p>
+      <h2>Filter by the kind of job</h2>
+    </div>
+
+    <div class="gal-filters" data-filter-bar="#photoGrid" data-filter-count="#photoCount" role="group" aria-label="Filter gallery by job type">
+      <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">All photos</button>
+      <button class="chip" type="button" data-filter="service" aria-pressed="false">🔧 Service calls</button>
+      <button class="chip" type="button" data-filter="installation" aria-pressed="false">🛠️ Installations</button>
+      <button class="chip" type="button" data-filter="commercial" aria-pressed="false">🏭 Commercial</button>
+      <button class="chip" type="button" data-filter="equipment" aria-pressed="false">❄️ Equipment &amp; parts</button>
+    </div>
+    <p class="mb-3 text-sm text-muted">Showing <strong id="photoCount">18</strong>.</p>
+
+    <div class="gal-grid" data-photo-grid id="photoGrid">
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="service"
+              data-src="assets/images/hero-tech-ac.jpg" data-alt="Technician servicing an outdoor air conditioning condenser beside a house"
+              data-caption="Summer A/C service call" data-sub="Plainfield · condenser repair">
+        <img src="assets/images/hero-tech-ac.jpg" width="1770" height="680" loading="lazy" alt="">
+        <span class="gal-item__cap">Summer A/C service call<span>Plainfield · condenser repair</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="service"
+              data-src="assets/images/ac-condenser-service.jpg" data-alt="Technician checking refrigerant pressures on an outdoor condenser"
+              data-caption="Refrigerant charge check" data-sub="Shorewood · superheat and subcooling">
+        <img src="assets/images/ac-condenser-service.jpg" width="1600" height="900" loading="lazy" alt="">
+        <span class="gal-item__cap">Refrigerant charge check<span>Shorewood · superheat / subcooling</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="service"
+              data-src="assets/images/furnace-service.jpg" data-alt="Technician testing a residential gas furnace with the burner compartment open"
+              data-caption="No-heat call, same evening" data-sub="Joliet · inducer motor replaced">
+        <img src="assets/images/furnace-service.jpg" width="1600" height="900" loading="lazy" alt="">
+        <span class="gal-item__cap">No-heat call, same evening<span>Joliet · inducer motor replaced</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="service"
+              data-src="assets/images/gauge-refrigerant.jpg" data-alt="Manifold gauges attached during a rooftop diagnostic"
+              data-caption="Manifold gauges on a rooftop" data-sub="Romeoville · commercial diagnostic">
+        <img src="assets/images/gauge-refrigerant.jpg" width="1600" height="1600" loading="lazy" alt="">
+        <span class="gal-item__cap">Manifold gauges on a rooftop<span>Romeoville · commercial diagnostic</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="service"
+              data-src="assets/images/home-visit.jpg" data-alt="Technician arriving at the front door of a home"
+              data-caption="Maintenance plan visit" data-sub="Bolingbrook · spring cooling service">
+        <img src="assets/images/home-visit.jpg" width="500" height="375" loading="lazy" alt="">
+        <span class="gal-item__cap">Maintenance plan visit<span>Bolingbrook · spring cooling service</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="service"
+              data-src="assets/images/tech-tablet.jpg" data-alt="Technician holding a tablet in a customer driveway"
+              data-caption="Photo report in progress" data-sub="New Lenox · documented findings">
+        <img src="assets/images/tech-tablet.jpg" width="640" height="480" loading="lazy" alt="">
+        <span class="gal-item__cap">Photo report in progress<span>New Lenox · documented findings</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="installation"
+              data-src="assets/images/install-ductwork.jpg" data-alt="Installer working at a residential furnace and ductwork"
+              data-caption="Furnace and plenum replacement" data-sub="Crest Hill · one-day change-out">
+        <img src="assets/images/install-ductwork.jpg" width="580" height="580" loading="lazy" alt="">
+        <span class="gal-item__cap">Furnace and plenum replacement<span>Crest Hill · one-day change-out</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="installation"
+              data-src="assets/images/tankless-water-heater.jpg" data-alt="Wall-mounted tankless water heater with copper piping"
+              data-caption="Tankless water heater install" data-sub="Oswego · 199k BTU condensing">
+        <img src="assets/images/tankless-water-heater.jpg" width="1600" height="900" loading="lazy" alt="">
+        <span class="gal-item__cap">Tankless water heater install<span>Oswego · 199k BTU condensing</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="commercial"
+              data-src="assets/images/rooftop-units.jpg" data-alt="Two commercial rooftop condenser units on curbs at dusk"
+              data-caption="Rooftop pair, staged change-out" data-sub="Romeoville · 2 × 7.5 ton">
+        <img src="assets/images/rooftop-units.jpg" width="1600" height="900" loading="lazy" alt="">
+        <span class="gal-item__cap">Rooftop pair, staged change-out<span>Romeoville · 2 × 7.5 ton</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="commercial"
+              data-src="assets/images/hero-indoor.jpg" data-alt="Technician working on an indoor commercial air handler"
+              data-caption="Air handler service, retail space" data-sub="Joliet · filter and belt schedule">
+        <img src="assets/images/hero-indoor.jpg" width="1920" height="1080" loading="lazy" alt="">
+        <span class="gal-item__cap">Air handler service, retail space<span>Joliet · filter and belt schedule</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="equipment installation"
+              data-src="assets/images/product-condenser.jpg" data-alt="Bryant outdoor air conditioning condenser unit"
+              data-caption="Bryant 2.5 ton condenser" data-sub="Installed with new pad and line set">
+        <img src="assets/images/product-condenser.jpg" width="1600" height="1600" loading="lazy" alt="">
+        <span class="gal-item__cap">Bryant 2.5 ton condenser<span>Installed with pad and line set</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="equipment"
+              data-src="assets/images/product-condenser-2.jpg" data-alt="Bryant condenser viewed from above showing the fan grille"
+              data-caption="Condenser before it goes on the pad" data-sub="Warehouse inventory">
+        <img src="assets/images/product-condenser-2.jpg" width="300" height="291" loading="lazy" alt="">
+        <span class="gal-item__cap">Condenser before it goes on the pad<span>Warehouse inventory</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="equipment"
+              data-src="assets/images/product-condenser-3.jpg" data-alt="Close view of condenser cabinet louvers and coil"
+              data-caption="Coil louvers, new unit" data-sub="Warehouse inventory">
+        <img src="assets/images/product-condenser-3.jpg" width="1600" height="1472" loading="lazy" alt="">
+        <span class="gal-item__cap">Coil louvers, new unit<span>Warehouse inventory</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="equipment commercial"
+              data-src="assets/images/product-boiler.png" data-alt="Red and grey wall-mounted hot water boiler with gauges"
+              data-caption="Wall-hung condensing boiler" data-sub="Lockport · hydronic replacement">
+        <img src="assets/images/product-boiler.png" width="205" height="257" loading="lazy" alt="">
+        <span class="gal-item__cap">Wall-hung condensing boiler<span>Lockport · hydronic replacement</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="equipment service"
+              data-src="assets/images/product-capacitor.jpg" data-alt="Run capacitor with coiled lead wires"
+              data-caption="Run capacitor, bench tested" data-sub="The most common no-cooling failure">
+        <img src="assets/images/product-capacitor.jpg" width="407" height="268" loading="lazy" alt="">
+        <span class="gal-item__cap">Run capacitor, bench tested<span>The most common no-cooling failure</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="equipment service"
+              data-src="assets/images/product-board-green.jpg" data-alt="Green furnace control board with relays and terminals"
+              data-caption="Furnace control board" data-sub="Diagnosed and replaced in one visit">
+        <img src="assets/images/product-board-green.jpg" width="300" height="300" loading="lazy" alt="">
+        <span class="gal-item__cap">Furnace control board<span>Diagnosed and replaced in one visit</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="equipment service"
+              data-src="assets/images/product-board-blue.png" data-alt="Control board with transformer and terminal strips"
+              data-caption="Condensate pump control" data-sub="Universal replacement unit">
+        <img src="assets/images/product-board-blue.png" width="500" height="350" loading="lazy" alt="">
+        <span class="gal-item__cap">Condensate pump control<span>Universal replacement unit</span></span>
+      </button>
+
+      <button class="gal-item" data-over-media type="button" data-photo data-tags="equipment"
+              data-src="assets/images/product-thermostat-board.jpg" data-alt="Control board from a digital thermostat with colour-coded wiring"
+              data-caption="Smart thermostat wiring" data-sub="C-wire added for Wi-Fi control">
+        <img src="assets/images/product-thermostat-board.jpg" width="2500" height="2500" loading="lazy" alt="">
+        <span class="gal-item__cap">Smart thermostat wiring<span>C-wire added for Wi-Fi control</span></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ========================== HIGHLIGHTS ========================== -->
+<section class="section section--navy">
+  <div class="wrap wrap--wide">
+    <div class="split split--wide-left">
+      <div>
+        <p class="eyebrow eyebrow--onDark">Behind the photos</p>
+        <h2>What you can't see in a picture</h2>
+        <p class="lead mt-2">A tidy install photo doesn't tell you whether the system was charged by
+          superheat, whether the static pressure was measured, or whether the permit was pulled. We document
+          all three on every job — and you get the record.</p>
+        <ul class="ticks ticks--two ticks--onDark mt-3">
+          <li>Permit numbers recorded on the invoice</li>
+          <li>Static pressure and temperature split logged</li>
+          <li>Refrigerant weighed in, not guessed</li>
+          <li>Before/after photos emailed as a PDF</li>
+          <li>Warranty registered the day of install</li>
+          <li>Old equipment recycled, not dumped</li>
+        </ul>
+      </div>
+      <div class="grid grid-2">
+        <div class="frame frame--square"><img src="assets/images/install-ductwork.jpg" width="580" height="580" loading="lazy" alt="Furnace connection detail after installation"></div>
+        <div class="frame frame--square"><img src="assets/images/gauge-refrigerant.jpg" width="1600" height="1600" loading="lazy" alt="Gauges connected to a system during charging"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap wrap--wide">
+    <div class="cta-band">
+      <div class="cta-band__in">
+        <div>
+          <p class="eyebrow eyebrow--onDark">Your house could be next</p>
+          <h2>Want your install to look like the ones above?</h2>
+          <p class="mt-2">Free written estimates, three options, and a start date you agree to in advance.</p>
+        </div>
+        <div class="cta-band__actions">
+          <a class="btn btn--salmon btn--lg btn--block" href="contact.html#book">Book a Service</a>
+          <a class="btn btn--outline-white btn--lg btn--block" href="tel:+18155560660">
+            <svg class="ico ico--sm" aria-hidden="true"><use href="#i-phone"></use></svg> 815-556-0660
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

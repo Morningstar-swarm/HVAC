@@ -1,0 +1,21 @@
+{
+  "name": "best-comfort-hvac-site",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Best Comfort HVAC \u2014 Joliet Office. Hand-written static site. Everything under devDependencies is audit tooling; nothing here ships to the browser.",
+  "scripts": {
+    "build": "python3 build.py",
+    "serve": "python3 -m http.server 8124 --bind 0.0.0.0 --directory site",
+    "check": "python3 build.py && node a11y.js && node mobile.js && node navtest.js && node diag.js && node prod.js",
+    "audit:contrast": "node a11y.js",
+    "audit:responsive": "node mobile.js",
+    "audit:nav": "node navtest.js",
+    "audit:prod": "node prod.js",
+    "shots": "node shoot.js",
+    "audit:header": "node diag.js",
+    "preview:pages": "python3 preview-pages.py"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}

@@ -1,0 +1,54 @@
+name: Deploy site to GitHub Pages
+
+# Every push to main rebuilds the site from source and republishes it.
+# build.py runs its own QA gate (links, anchors, titles, h1s, alts, accordion
+# wiring), so a broken build fails here instead of going live.
+on:
+  push:
+    branches: [main]
+  # lets you redeploy from the Actions tab without a new commit
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      # A project site is served from /<repo>/ (not a domain root), so the base
+      # path and the canonical URLs are taken from the repository itself — no
+      # files need editing when the repo is renamed or forked.
+      - name: Build
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: python3 build.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

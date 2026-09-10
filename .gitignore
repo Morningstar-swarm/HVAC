@@ -1,0 +1,21 @@
+# Build output — regenerate with `npm run build` (or let CI do it). Never commit.
+site/
+.pages-preview/
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+*.pyc
+
+# Audit artefacts (screenshots and the check log are local-only)
+shots/
+check-report.txt
+
+# Reference-scrape bulk (harvested images; the JSON provenance stays tracked)
+scrape/found/
+scrape/reference-full.jpg
+scrape/reference-shell.html
+
+# OS noise
+.DS_Store
+Thumbs.db

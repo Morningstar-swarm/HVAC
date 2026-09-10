@@ -1,0 +1,421 @@
+<section class="page-hero">
+  <div class="wrap wrap--wide">
+    <ol class="crumbs">
+      <li><a href="index.html">Home</a></li>
+      <li><svg class="ico" aria-hidden="true"><use href="#i-chevron-right"></use></svg></li>
+      <li aria-current="page">Products</li>
+    </ol>
+    <div class="page-hero__grid">
+      <div>
+        <p class="eyebrow eyebrow--pill">Parts · Equipment · Water heating</p>
+        <h1>HVAC products we stock in Joliet</h1>
+        <p class="lead">Everything on this page is either on a van or in the Essington Road warehouse right
+          now. Prices are published so you can compare before you call — and if a part isn't listed, we'll
+          price it for you in one phone call.</p>
+        <div class="btn-row mt-3">
+          <a class="btn btn--salmon btn--lg" href="tel:+18155560660">
+            <svg class="ico ico--sm" aria-hidden="true"><use href="#i-phone"></use></svg> Check availability
+          </a>
+          <a class="btn btn--outline btn--lg" href="#categories">Browse categories</a>
+        </div>
+      </div>
+      <div class="page-hero__art">
+        <img src="assets/images/product-condenser.jpg" width="1600" height="1600" alt="Bryant outdoor condenser unit stocked by Best Comfort HVAC">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== CATALOG =========================== -->
+<section class="section" id="catalog">
+  <div class="wrap wrap--wide">
+    <div class="section-head">
+      <p class="eyebrow">The catalog</p>
+      <h2>Popular parts &amp; equipment</h2>
+      <p>Filter by category, then call with the item name — we confirm fit against your model number before
+        anything goes on the truck. Photos are of the actual item family; two slots below are reserved for
+        your own product photography.</p>
+    </div>
+
+    <div class="gal-filters" data-filter-bar="#productGrid" data-filter-count="#productCount" role="group" aria-label="Filter products by category">
+      <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">All products</button>
+      <button class="chip" type="button" data-filter="parts" aria-pressed="false">🔧 Parts</button>
+      <button class="chip" type="button" data-filter="equipment" aria-pressed="false">❄️ Equipment</button>
+      <button class="chip" type="button" data-filter="controls" aria-pressed="false">🌡️ Controls</button>
+      <button class="chip" type="button" data-filter="water" aria-pressed="false">💧 Water heating</button>
+    </div>
+    <p class="mb-3 text-sm text-muted">Showing <strong id="productCount">8</strong> of 8 items.</p>
+
+    <div class="product-grid" id="productGrid">
+
+      <article class="pcard" data-tags="parts" data-reveal>
+        <div class="pcard__media">
+          <span class="pcard__flag">In stock</span>
+          <img src="assets/images/product-capacitor.jpg" width="407" height="268" loading="lazy" alt="Run capacitor with its coiled lead wires, an air conditioning electrical part">
+        </div>
+        <div class="pcard__body">
+          <p class="pcard__vendor">AAON</p>
+          <h3><a href="product-detail.html">Capacitor 45/5 MFD 440V</a></h3>
+          <p class="text-sm">Dual-run start capacitor for most single-phase condensers. Bench-tested
+            before it leaves the shop.</p>
+          <p class="pcard__price">$16.99 <span>+ install</span></p>
+        </div>
+      </article>
+
+      <article class="pcard" data-tags="parts water" data-reveal>
+        <div class="pcard__media">
+          <span class="pcard__flag pcard__flag--blue">Universal fit</span>
+          <img src="assets/images/product-board-blue.png" width="500" height="350" loading="lazy" alt="Control board with transformer, terminal strips and status lights">
+        </div>
+        <div class="pcard__body">
+          <p class="pcard__vendor">Adirondack-Aire</p>
+          <h3><a href="product-detail.html">Condensate Pump, Universal</a></h3>
+          <p class="text-sm">Replaces most tank-style pumps on air handlers, condensing furnaces and
+            dehumidifiers.</p>
+          <p class="pcard__price pcard__price--call">Call for pricing</p>
+        </div>
+      </article>
+
+      <article class="pcard" data-tags="equipment" data-reveal>
+        <div class="pcard__media">
+          <span class="pcard__flag pcard__flag--navy">Best seller</span>
+          <img src="assets/images/product-condenser.jpg" width="1600" height="1600" loading="lazy" alt="Bryant outdoor air conditioning condenser unit">
+        </div>
+        <div class="pcard__body">
+          <p class="pcard__vendor">Bryant</p>
+          <h3><a href="product-detail.html">Condenser, 2.5 Ton</a></h3>
+          <p class="text-sm">Single-stage R-410A outdoor unit, 14.3 SEER2. Installed price includes
+            pad, disconnect, line set and permit.</p>
+          <p class="pcard__price">$2,499.99 <span>installed</span></p>
+        </div>
+      </article>
+
+      <article class="pcard" data-tags="parts controls" data-reveal>
+        <div class="pcard__media">
+          <span class="pcard__flag">In stock</span>
+          <img src="assets/images/product-board-green.jpg" width="300" height="300" loading="lazy" alt="Green furnace control board with relays, resistors and low-voltage terminals">
+        </div>
+        <div class="pcard__body">
+          <p class="pcard__vendor">AAON</p>
+          <h3><a href="product-detail.html">Contactor, 2-Pole 30 Amp</a></h3>
+          <p class="text-sm">24-volt coil, lug terminals. The part behind most "condenser won't start"
+            calls we run.</p>
+          <p class="pcard__price pcard__price--call">Call for pricing</p>
+        </div>
+      </article>
+
+      <article class="pcard" data-tags="equipment water" data-reveal>
+        <div class="pcard__media">
+          <span class="pcard__flag pcard__flag--blue">Water heating</span>
+          <img src="assets/images/product-boiler.png" width="205" height="257" loading="lazy" alt="Red and grey wall-mounted hot water boiler with pressure gauge and piping">
+        </div>
+        <div class="pcard__body">
+          <p class="pcard__vendor">Weil-McLain</p>
+          <h3><a href="product-detail.html">Boiler, Hot Water</a></h3>
+          <p class="text-sm">Wall-hung unit for hydronic heat and domestic hot water. Quoted per
+            house — pipe routing matters.</p>
+          <p class="pcard__price pcard__price--call">Call for pricing</p>
+        </div>
+      </article>
+
+      <article class="pcard" data-tags="controls" data-reveal>
+        <div class="pcard__media">
+          <span class="pcard__flag pcard__flag--navy">Wi-Fi</span>
+          <img src="assets/images/product-thermostat-board.jpg" width="2500" height="2500" loading="lazy" alt="Control board from a digital Wi-Fi thermostat showing colour-coded wiring terminals">
+        </div>
+        <div class="pcard__body">
+          <p class="pcard__vendor">AAONAIRE</p>
+          <h3><a href="product-detail.html">Digital Thermostat, Wi-Fi Enabled</a></h3>
+          <p class="text-sm">7-day programming and app control. Works with single-stage, two-stage
+            and heat-pump systems.</p>
+          <p class="pcard__price">$149.99 <span>+ install</span></p>
+        </div>
+      </article>
+
+      <article class="pcard" data-tags="equipment water" data-reveal>
+        <div class="pcard__media pcard__media--ph">
+          <span class="pcard__flag pcard__flag--blue">Photo slot</span>
+          <p class="pcard__ph"><em>TextPlaceHolder1</em> Drop your tankless water heater photo here — same
+            file name, same frame size, no code to change.</p>
+        </div>
+        <div class="pcard__body">
+          <p class="pcard__vendor">Navien</p>
+          <h3><a href="product-detail.html">Tankless Water Heater, 199k BTU</a></h3>
+          <p class="text-sm">Condensing, indoor, up to 11 GPM — the upgrade most Joliet two-bath
+            homes ask for.</p>
+          <p class="pcard__price pcard__price--call">Call for pricing</p>
+        </div>
+      </article>
+
+      <article class="pcard" data-tags="parts" data-reveal>
+        <div class="pcard__media pcard__media--ph">
+          <span class="pcard__flag">Photo slot</span>
+          <p class="pcard__ph"><em>TextPlaceHolder2</em> Set aside for a MERV-13 media filter cabinet shot.
+            Replace the notes in <code>products.body.html</code>.</p>
+        </div>
+        <div class="pcard__body">
+          <p class="pcard__vendor">AAF</p>
+          <h3><a href="product-detail.html">Filter 16x20x1 MERV 8</a></h3>
+          <p class="text-sm">Six-pack of pleated filters — the size most Joliet furnaces take. Other
+            sizes in the same week.</p>
+          <p class="pcard__price">$79.99 <span>6-pack</span></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== FEATURED PRODUCT VIEWER ====================== -->
+<section class="section section--surface" id="featured">
+  <div class="wrap wrap--wide">
+    <div class="section-head">
+      <p class="eyebrow">Product viewer</p>
+      <h2>Click a thumbnail to change the main view</h2>
+      <p>Real photos of the Bryant condenser we install most often, plus a fourth slot wired and waiting for
+        your own shot. Arrow keys work too, and the enlarge button opens a full-screen lightbox.</p>
+    </div>
+
+    <div class="product-layout" data-gallery>
+      <div>
+        <div class="gallery__main">
+          <span class="gallery__tag" id="galleryTag">Bryant</span>
+          <img id="galleryMain" src="assets/images/product-condenser.jpg" width="1600" height="1600"
+               alt="Bryant outdoor air conditioning condenser unit, front view">
+          <div class="gallery__main-ph ph" id="galleryMainPh" hidden>
+            <strong data-ph-title>TextPlaceHolder3</strong>
+            <p data-ph-body>Placeholder slot for additional product photography.</p>
+          </div>
+          <span class="counter-row" id="galleryCounter">1 / 4</span>
+          <button class="gallery__zoom" type="button" id="galleryZoom">
+            <svg class="ico ico--sm" aria-hidden="true"><use href="#i-search"></use></svg> Enlarge
+          </button>
+        </div>
+        <div class="thumbs" role="tablist" aria-label="Product photos">
+          <button class="thumb is-active" type="button" role="tab" aria-selected="true" data-thumb
+                  data-src="assets/images/product-condenser.jpg" data-alt="Bryant outdoor air conditioning condenser unit, front view"
+                  data-caption="Bryant 2.5 ton condenser — front elevation" data-tag="Bryant">
+            <img src="assets/images/product-condenser.jpg" width="1600" height="1600" loading="lazy" alt="">
+            <span class="thumb__cap">Front</span>
+          </button>
+          <button class="thumb" type="button" role="tab" aria-selected="false" data-thumb
+                  data-src="assets/images/product-condenser-2.jpg" data-alt="Bryant condenser viewed from a three-quarter angle showing the top fan grille"
+                  data-caption="Bryant 2.5 ton condenser — top and fan grille" data-tag="Bryant">
+            <img src="assets/images/product-condenser-2.jpg" width="300" height="291" loading="lazy" alt="">
+            <span class="thumb__cap">Top</span>
+          </button>
+          <button class="thumb" type="button" role="tab" aria-selected="false" data-thumb
+                  data-src="assets/images/product-condenser-3.jpg" data-alt="Bryant condenser cabinet and louvers in close detail"
+                  data-caption="Bryant 2.5 ton condenser — cabinet and coil louvers" data-tag="Bryant">
+            <img src="assets/images/product-condenser-3.jpg" width="1600" height="1472" loading="lazy" alt="">
+            <span class="thumb__cap">Coil</span>
+          </button>
+          <button class="thumb thumb--ph" type="button" role="tab" aria-selected="false" data-thumb
+                  data-placeholder="true" data-ph-title="TextPlaceHolder3"
+                  data-ph-body="Your own photo goes here — nameplate, installed shot or serial label."
+                  data-caption="Reserved slot — TextPlaceHolder3" data-tag="Photo slot">
+            <span>TextPlace<br>Holder3</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="summary">
+        <p class="eyebrow eyebrow--pill-b">Replacement package</p>
+        <h3>Bryant 2.5 ton condenser, installed</h3>
+        <p class="summary__sub">Straight-cool outdoor unit for a typical 1,400–1,900 sq ft Joliet home, matched
+          to your existing coil and furnace or quoted as a complete package.</p>
+        <div class="rating-row">
+          <span class="stars" aria-label="Rated 4.8 out of 5">
+            <svg class="ico" aria-hidden="true"><use href="#i-star"></use></svg><svg class="ico" aria-hidden="true"><use href="#i-star"></use></svg><svg class="ico" aria-hidden="true"><use href="#i-star"></use></svg><svg class="ico" aria-hidden="true"><use href="#i-star"></use></svg><svg class="ico" aria-hidden="true"><use href="#i-star-half"></use></svg>
+          </span>
+          <span>4.8 · 96 installed in Will County</span>
+        </div>
+        <div class="price-card">
+          <div class="price-row">
+            <span class="price-now">$2,499.99</span>
+            <span class="price-was">$2,749.99</span>
+            <span class="price-save">Save $250</span>
+          </div>
+          <p class="price-note">Installed price includes pad, disconnect, line set, permit and haul-away.
+            Coupon SAVE100 stacks on system replacements.</p>
+          <ul class="price-list">
+            <li><span>Financing, 18 months at 0%</span><strong>$138.89 / mo</strong></li>
+            <li><span>10-year parts warranty</span><strong>Included</strong></li>
+            <li><span>Labour warranty, 24 months</span><strong>Included</strong></li>
+          </ul>
+        </div>
+        <div class="spec-strip">
+          <div class="spec"><span>2.5</span><small>Tons</small></div>
+          <div class="spec"><span>14.3</span><small>SEER2</small></div>
+          <div class="spec"><span>R-410A</span><small>Refrigerant</small></div>
+        </div>
+        <div class="btn-row mt-3">
+          <a class="btn btn--salmon" href="tel:+18155560660">Call for firm quote</a>
+          <a class="btn btn--outline" href="product-detail.html">Full product details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= CATEGORIES ========================= -->
+<section class="section section--surface" id="categories">
+  <div class="wrap wrap--wide">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Categories</p>
+      <h2>What we keep on the shelf</h2>
+      <p>Open a category to see the lines we carry and how quickly we can get what you need.</p>
+    </div>
+
+    <div class="accordion accordion--brand" data-accordion>
+      <div class="accordion__item">
+        <h3 class="accordion__head">
+          <button class="accordion__btn" type="button" data-acc-toggle aria-expanded="true" aria-controls="cat-heat">
+            <span>🔥 Heating equipment</span>
+            <svg class="ico ico--chev" aria-hidden="true"><use href="#i-chevron-down"></use></svg>
+          </button>
+        </h3>
+        <div class="accordion__panel" id="cat-heat" role="region" data-open>
+          <div class="accordion__body">
+            <ul class="bullets">
+              <li><span class="bu">🔥</span><span><strong>Furnaces:</strong> 80% and 96% AFUE, single-stage up to
+                modulating, 40k–140k BTU, up and downflow.</span></li>
+              <li><span class="bu">♨️</span><span><strong>Boilers:</strong> condensing wall-hung and cast-iron
+                atmospheric, 80k–299k BTU.</span></li>
+              <li><span class="bu">🔁</span><span><strong>Heat pumps:</strong> standard split and cold-climate
+                inverter, with electric or gas backup.</span></li>
+              <li><span class="bu">🧯</span><span><strong>Parts:</strong> igniters, flame sensors, gas valves,
+                inducers, pressure switches, control boards, thermocouples.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion__item">
+        <h3 class="accordion__head">
+          <button class="accordion__btn" type="button" data-acc-toggle aria-expanded="false" aria-controls="cat-cool">
+            <span>❄️ Cooling equipment</span>
+            <svg class="ico ico--chev" aria-hidden="true"><use href="#i-chevron-down"></use></svg>
+          </button>
+        </h3>
+        <div class="accordion__panel" id="cat-cool" role="region" hidden>
+          <div class="accordion__body">
+            <ul class="bullets">
+              <li><span class="bu">❄️</span><span><strong>Condensers:</strong> 1.5–5 ton, 13.4–20 SEER2,
+                single and two-stage.</span></li>
+              <li><span class="bu">🌀</span><span><strong>Air handlers &amp; coils:</strong> cased and uncased,
+                upflow, downflow, horizontal, R-410A and R-32 ready.</span></li>
+              <li><span class="bu">💨</span><span><strong>Ductless:</strong> single-zone and multi-zone
+                mini-splits, wall, ceiling cassette and floor consoles.</span></li>
+              <li><span class="bu">🧰</span><span><strong>Parts:</strong> capacitors, contactors, fan motors,
+                reversing valves, capacitors, floats, pumps.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion__item">
+        <h3 class="accordion__head">
+          <button class="accordion__btn" type="button" data-acc-toggle aria-expanded="false" aria-controls="cat-airq">
+            <span>🌬️ Air quality &amp; filtration</span>
+            <svg class="ico ico--chev" aria-hidden="true"><use href="#i-chevron-down"></use></svg>
+          </button>
+        </h3>
+        <div class="accordion__panel" id="cat-airq" role="region" hidden>
+          <div class="accordion__body">
+            <ul class="bullets">
+              <li><span class="bu">🧽</span><span><strong>Filters:</strong> MERV 8 to MERV 13, 1", 2", 4" and
+                5" media cabinets, cut-to-size poly.</span></li>
+              <li><span class="bu">🔆</span><span><strong>UV-C:</strong> single and dual-lamp in-duct purifiers,
+                coil-sanitising inserts.</span></li>
+              <li><span class="bu">💧</span><span><strong>Humidity:</strong> bypass and steam humidifiers,
+                whole-home dehumidifiers for finished basements.</span></li>
+              <li><span class="bu">🍃</span><span><strong>Ventilation:</strong> ERV/HRV cores, fresh-air
+                intakes, kitchen and bath exhaust.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion__item">
+        <h3 class="accordion__head">
+          <button class="accordion__btn" type="button" data-acc-toggle aria-expanded="false" aria-controls="cat-water2">
+            <span>💧 Water heaters &amp; boilers</span>
+            <svg class="ico ico--chev" aria-hidden="true"><use href="#i-chevron-down"></use></svg>
+          </button>
+        </h3>
+        <div class="accordion__panel" id="cat-water2" role="region" hidden>
+          <div class="accordion__body">
+            <ul class="bullets">
+              <li><span class="bu">🚿</span><span><strong>Tank:</strong> 40 and 50 gallon gas and electric,
+                6-year and 12-year warranties.</span></li>
+              <li><span class="bu">⚡</span><span><strong>Tankless:</strong> condensing and non-condensing,
+                indoor and outdoor, up to 11 GPM.</span></li>
+              <li><span class="bu">🛠️</span><span><strong>Parts:</strong> elements, thermocouples,
+                T&amp;P valves, expansion tanks, anode rods, vent kits.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= ORDERING STEPS ========================= -->
+<section class="section" id="ordering">
+  <div class="wrap wrap--wide">
+    <div class="split split--wide-right">
+      <div data-reveal>
+        <div class="frame"><img src="assets/images/install-ductwork.jpg" width="580" height="580" loading="lazy" alt="Stock shelves holding HVAC parts and controls in the Best Comfort warehouse"></div>
+      </div>
+      <div data-reveal>
+        <p class="eyebrow eyebrow--blue">How ordering works</p>
+        <h2>From "I need this part" to installed</h2>
+        <ul class="timeline mt-3">
+          <li>
+            <h3>Send us the model number</h3>
+            <p>Photo of the rating plate is easiest — text it to <a href="tel:+18155560660">815-556-0660</a>.
+              We confirm fitment, not just a matching size.</p>
+          </li>
+          <li>
+            <h3>Get a firm price</h3>
+            <p>Parts are quoted at list-plus-fair-markup, and installation labour is a flat fee. No hourly
+              meter running while someone figures it out.</p>
+          </li>
+          <li>
+            <h3>Same or next day</h3>
+            <p>Stocked items can go on a scheduled visit today. Ordered items average two business days
+              from six area distributors.</p>
+          </li>
+          <li>
+            <h3>Installed and warrantied</h3>
+            <p>We install, test, and email your paperwork. Parts warranties run 1–10 years depending on
+              the item; labour is covered for 12 months.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== PARTS CTA =========================== -->
+<section class="section section--tight">
+  <div class="wrap wrap--wide">
+    <div class="cta-band" data-reveal>
+      <div class="cta-band__in">
+        <div>
+          <p class="eyebrow eyebrow--onDark">Find it faster by phone</p>
+          <h2>Looking for a part you don't see here?</h2>
+          <p class="mt-2">Give us the model number and symptom — a technician will price the part and tell
+            you honestly whether it's worth repairing that system.</p>
+        </div>
+        <div class="cta-band__actions">
+          <a class="btn btn--salmon btn--lg btn--block" href="tel:+18155560660">
+            <svg class="ico ico--sm" aria-hidden="true"><use href="#i-phone"></use></svg> 815-556-0660
+          </a>
+          <a class="btn btn--outline-white btn--lg btn--block" href="contact.html#book">Request a part quote</a>
+          <p class="cta-band__note">Free estimates on installations · $50 coupon on service calls</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

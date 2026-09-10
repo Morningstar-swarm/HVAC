@@ -1,0 +1,170 @@
+<!-- ============================ TOP BAR ============================ -->
+<div class="topbar">
+  <div class="wrap wrap--wide">
+    <div class="topbar__in">
+      <ul class="topbar__list">
+        <li>
+          <svg class="ico" aria-hidden="true"><use href="#i-bolt"></use></svg>
+          <span><strong>24/7 Emergency Service</strong><span class="topbar__hours"> · Mon–Fri 8:00–18:00</span></span>
+        </li>
+        <li class="topbar__addr">
+          <svg class="ico" aria-hidden="true"><use href="#i-pin"></use></svg>
+          <span>1504 Essington Rd #3, Joliet, IL 60435</span>
+        </li>
+      </ul>
+      <div class="topbar__right">
+        <a class="topbar__mid" href="tel:+18155560660">
+          <svg class="ico ico--sm" aria-hidden="true"><use href="#i-phone-call"></use></svg>
+          <span>815-556-0660</span>
+        </a>
+        <a class="topbar__mid topbar__mail" href="mailto:ContactUs@bestcomforthvac.com">
+          <svg class="ico ico--sm" aria-hidden="true"><use href="#i-mail"></use></svg>
+          <span>ContactUs@bestcomforthvac.com</span>
+        </a>
+        <ul class="topbar__social">
+          <li><a href="#" aria-label="Best Comfort HVAC on Facebook" data-placeholder-link><svg class="ico" aria-hidden="true"><use href="#i-facebook"></use></svg></a></li>
+          <li><a href="#" aria-label="Best Comfort HVAC on Instagram" data-placeholder-link><svg class="ico" aria-hidden="true"><use href="#i-instagram-solid"></use></svg></a></li>
+          <li><a href="#" aria-label="Best Comfort HVAC on YouTube" data-placeholder-link><svg class="ico" aria-hidden="true"><use href="#i-youtube"></use></svg></a></li>
+          <li><a href="#" aria-label="Best Comfort HVAC on Yelp" data-placeholder-link><svg class="ico" aria-hidden="true"><use href="#i-yelp"></use></svg></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ HEADER ============================ -->
+<header class="site-header">
+  <div class="wrap wrap--wide">
+    <div class="site-header__in">
+      <a class="brand" href="index.html" aria-label="Best Comfort HVAC — home">
+        <span class="brand__mark"><img src="assets/images/logo-bestcomfort.jpg" width="96" height="96" alt="Best Comfort Heating &amp; Cooling logo"></span>
+        <span class="brand__text">
+          <span class="brand__name">Best Comfort HVAC</span>
+          <span class="brand__tag">Joliet Office · Heating &amp; Cooling</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <ul class="nav__list">
+          <li><a href="index.html" data-nav-link>Home</a></li>
+          <li>
+            <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-services">
+              Services <svg class="ico ico--xs" aria-hidden="true"><use href="#i-chevron-down"></use></svg>
+            </button>
+            <ul class="nav__sub" id="nav-services" hidden>
+              <li><a href="services.html" data-nav-link>All Services</a></li>
+              <li><a href="residential.html" data-nav-link>Residential HVAC</a></li>
+              <li><a href="commercial.html" data-nav-link>Commercial HVAC</a></li>
+              <li><a href="air-quality.html" data-nav-link>Indoor Air Quality</a></li>
+              <li><a href="service-areas.html" data-nav-link>Service Areas</a></li>
+            </ul>
+          </li>
+          <li><a href="products.html" data-nav-link>Products</a></li>
+          <li><a href="special-offers.html" data-nav-link>Special Offers</a></li>
+          <li><a href="financing.html" data-nav-link>Financing</a></li>
+          <li>
+            <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-company">
+              Company <svg class="ico ico--xs" aria-hidden="true"><use href="#i-chevron-down"></use></svg>
+            </button>
+            <ul class="nav__sub" id="nav-company" hidden>
+              <li><a href="about.html" data-nav-link>About Us</a></li>
+              <li><a href="gallery.html" data-nav-link>Project Gallery</a></li>
+              <li><a href="reviews.html" data-nav-link>Customer Reviews</a></li>
+              <li><a href="faq.html" data-nav-link>HVAC FAQ</a></li>
+              <li><a href="pages.html" data-nav-link>All Pages</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html" data-nav-link>Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn--outline btn--sm header-cta__phone" href="tel:+18155560660">
+          <svg class="ico ico--sm" aria-hidden="true"><use href="#i-phone"></use></svg>
+          <span class="header-cta__num">815-556-0660</span>
+        </a>
+        <a class="btn btn--salmon btn--sm header-cta__book" href="contact.html#book">Book a Service</a>
+        <button class="burger" type="button" data-drawer-open aria-expanded="false" aria-controls="mobileNav">
+          <svg class="ico" aria-hidden="true"><use href="#i-menu"></use></svg>
+          <span class="sr-only">Open menu</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ======================== MOBILE DRAWER ======================== -->
+<div class="mobile-nav__scrim" data-drawer-scrim hidden></div>
+<div class="mobile-nav" id="mobileNav" data-drawer role="dialog" aria-modal="true" aria-label="Site menu" hidden>
+  <div class="mobile-nav__head">
+    <span class="mobile-nav__title">
+      <span class="brand__mark brand__mark--sm"><img src="assets/images/logo-bestcomfort.jpg" width="64" height="64" alt=""></span>
+      Best Comfort HVAC
+    </span>
+    <button class="mobile-nav__close" type="button" data-drawer-close>
+      <svg class="ico" aria-hidden="true"><use href="#i-x"></use></svg>
+      <span class="sr-only">Close menu</span>
+    </button>
+  </div>
+
+  <ul class="mnav">
+    <li><a href="index.html" data-nav-link>Home</a></li>
+    <li>
+      <button class="mnav__toggle" type="button" aria-expanded="false" aria-controls="mnav-services">
+        Services <svg class="ico ico--sm" aria-hidden="true"><use href="#i-chevron-down"></use></svg>
+      </button>
+      <ul class="mnav__sub" id="mnav-services" hidden>
+        <li><a href="services.html" data-nav-link>All Services</a></li>
+        <li><a href="residential.html" data-nav-link>Residential HVAC</a></li>
+        <li><a href="commercial.html" data-nav-link>Commercial HVAC</a></li>
+        <li><a href="air-quality.html" data-nav-link>Indoor Air Quality</a></li>
+        <li><a href="service-areas.html" data-nav-link>Service Areas</a></li>
+      </ul>
+    </li>
+    <li><a href="products.html" data-nav-link>Products</a></li>
+    <li><a href="special-offers.html" data-nav-link>Special Offers</a></li>
+    <li><a href="financing.html" data-nav-link>Financing</a></li>
+    <li>
+      <button class="mnav__toggle" type="button" aria-expanded="false" aria-controls="mnav-company">
+        Company <svg class="ico ico--sm" aria-hidden="true"><use href="#i-chevron-down"></use></svg>
+      </button>
+      <ul class="mnav__sub" id="mnav-company" hidden>
+        <li><a href="about.html" data-nav-link>About Us</a></li>
+        <li><a href="gallery.html" data-nav-link>Project Gallery</a></li>
+        <li><a href="reviews.html" data-nav-link>Customer Reviews</a></li>
+        <li><a href="faq.html" data-nav-link>HVAC FAQ</a></li>
+        <li><a href="pages.html" data-nav-link>All Pages</a></li>
+      </ul>
+    </li>
+    <li><a href="contact.html" data-nav-link>Contact</a></li>
+  </ul>
+
+  <div class="mobile-nav__contact">
+    <p class="mobile-nav__note">
+      <svg class="ico ico--sm" aria-hidden="true"><use href="#i-bolt"></use></svg>
+      24/7 emergency line — a person answers, day or night.
+    </p>
+    <ul class="contact-list">
+      <li>
+        <svg class="ico" aria-hidden="true"><use href="#i-pin"></use></svg>
+        <span><strong>Office</strong>1504 Essington Rd #3, Joliet, IL 60435</span>
+      </li>
+      <li>
+        <svg class="ico" aria-hidden="true"><use href="#i-clock"></use></svg>
+        <span><strong>Hours</strong>Mon–Fri 8–6 · Sat 9–3 · 24/7 emergency</span>
+      </li>
+      <li>
+        <svg class="ico" aria-hidden="true"><use href="#i-mail"></use></svg>
+        <span><strong>Email</strong><a href="mailto:ContactUs@bestcomforthvac.com">ContactUs@bestcomforthvac.com</a></span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mobile-nav__foot">
+    <a class="btn btn--salmon btn--block" href="tel:+18155560660">
+      <svg class="ico ico--sm" aria-hidden="true"><use href="#i-phone"></use></svg> Call 815-556-0660
+    </a>
+    <a class="btn btn--blue btn--block" href="contact.html#book">Book a Service</a>
+    <a class="btn btn--outline btn--block" href="mailto:ContactUs@bestcomforthvac.com">Email the office</a>
+  </div>
+</div>

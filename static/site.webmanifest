@@ -1,0 +1,22 @@
+{
+  "name": "Best Comfort HVAC — Joliet Office",
+  "short_name": "Best Comfort",
+  "description": "Heating, cooling and indoor air quality service for Joliet and the greater Chicago area. 24/7 emergency HVAC repairs.",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FF6F61",
+  "lang": "en-US",
+  "categories": ["business", "utilities"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Book a service", "url": "contact.html#book" },
+    { "name": "Special offers", "url": "special-offers.html" },
+    { "name": "Call the office", "url": "tel:+18155560660" }
+  ]
+}
