@@ -47,9 +47,12 @@ STREET = "1504 Essington Rd #3"
 CITY = "Joliet"
 STATE = "IL"
 ZIP = "60435"
-# Absolute URL used for canonical/og:url/jsonld/sitemap. Overridden on GitHub Pages
-# so the deployed copy points at itself instead of the reference domain.
-SITE_URL = (_opt("--site-url") or os.environ.get("SITE_URL")
+# Absolute URL used for canonical/og:url/jsonld/sitemap. CI providers can supply
+# their production hostname; the explicit flag and SITE_URL env var take priority.
+_vercel_url = os.environ.get("VERCEL_PROJECT_PRODUCTION_URL", "").strip()
+if _vercel_url and not _vercel_url.startswith("http"):
+    _vercel_url = f"https://{_vercel_url}"
+SITE_URL = (_opt("--site-url") or os.environ.get("SITE_URL") or _vercel_url
             or "https://bestcomforthvac.hcshvac.com").rstrip("/")
 
 # Non-empty only when the site is served from a subdirectory, e.g. GitHub Pages

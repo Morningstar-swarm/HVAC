@@ -1,5 +1,23 @@
 # Deploying to GitHub Pages
 
+## Deploying to Vercel
+
+This repository is ready to deploy as a static Vercel project. Import the GitHub
+repository in Vercel and leave the detected settings in place: `vercel.json`
+runs `python3 build.py` and publishes the generated `site/` directory. No
+environment variables or framework preset are required. Vercel's production
+hostname is used automatically for canonical URLs; set `SITE_URL` in Vercel if
+you attach a custom domain.
+
+For a CLI deployment, run:
+
+```bash
+npx vercel
+```
+
+The Vercel configuration also carries over the site security headers and asset
+cache policy used by the other hosting targets.
+
 The site is static output built from source by `build.py`. A GitHub Actions
 workflow rebuilds it on every push and publishes it to GitHub Pages, so you never
 commit generated files and the live site always matches the source.
